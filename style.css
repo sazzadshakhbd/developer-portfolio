@@ -11,7 +11,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 200px;
 }
@@ -43,4 +43,29 @@ section {
     background-image: url('./img/corner-right.png');
     background-repeat: no-repeat;
     background-position: top right;
+}
+
+.experience {
+    background-image: url('./img/corner.png');
+    background-repeat: no-repeat;
+}
+
+.experience-item {
+    box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    margin: 0 2%;
+    padding: 0 2%;
+    border-radius: 0;
+}
+
+#full-stack-developer {
+    border-left: 7px solid orange;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
